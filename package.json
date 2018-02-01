@@ -14,9 +14,8 @@
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",
-    "mongoose": "^4.13.2",
+    "mongoose": "^4.13.2"
   },
-  ,
   "engines": {
     "node": "8.1.4"
   }
