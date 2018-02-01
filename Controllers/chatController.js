@@ -11,11 +11,10 @@ const addUser = async (ctx, next) => {
   }
 }
 
-
 const conversations = async (ctx, next) => {
   try {
     const chats = await chatModel.find();
-      ctx.body = chats;
+      ctx.body = {chats};
       ctx.status = 200;
       return ctx;
     }
@@ -31,7 +30,6 @@ const addConversation = async (ctx, next) => {
         { title: ctx.request.body.title
         });
         newChat.save();
-        console.log('save');
         ctx.status = 200;
     }
   catch (error) {
