@@ -1,0 +1,16 @@
+{
+  "name": "hero_chat_backend",
+  "version": "1.0.0",
+  "description": "Backend for Hero Chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Hardman",
+  "license": "ISC",
+  "dependencies": {
+    "kcors": "^2.2.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0"
+  }
+}
