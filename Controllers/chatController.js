@@ -16,6 +16,7 @@ const conversations = async (ctx, next) => {
   try {
     const chats = await chatModel.find();
       ctx.body = {chats};
+      ctx.status = 200;
       return ctx;
     }
   catch (error) {
